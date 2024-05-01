@@ -11,18 +11,24 @@
 
 1. Clone this repository
 2. Install the dependencies:
+  <br/>
    **npm install**
-3. Run the database:
+4. Run the database:
+   <br/>
    **docker-compose up -d**
-4. Copy the **env.example** file to **env** and fill in the environment variables
+6. Copy the **env.example** file to **env** and fill in the environment variables:
+   <br/>
    **cp env.example .env**
-5. Run the migrations:
+8. Run the migrations:
+   <br/>
    **npx prisma migrate dev**
-6. Run the application:
+10. Run the application:
+    <br/>
    **npm run dev**
-7. Access the API with the Rest Client:
+12. Access the API with the Rest Client:
+    <br/>
    **localhost:3333/polls**
-8. Enjoy the API
+14. Enjoy the API
 
 ## Routes
 
