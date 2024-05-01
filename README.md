@@ -21,8 +21,8 @@
 6. Run the application:
    **npm run dev**
 7. Access the API with the Rest Client:
-    localhost:3333/polls***
-9. Enjoy the API
+    **localhost:3333/polls**
+9. Enjoy the API !!
 
 ## Routes
 
