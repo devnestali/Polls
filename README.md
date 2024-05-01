@@ -37,7 +37,7 @@
 - Fastify (framework)
 - Prisma ORM
 - Docker
-- PostgreSQL(DB)
-- Redis(DB)
+- PostgreSQL (DB)
+- Redis (DB)
 - Zod
 - WebSocket
