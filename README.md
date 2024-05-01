@@ -7,7 +7,7 @@
 * Docker
 * Rest Client (Postman)
 
-## Step by Steps
+## Step by Steps 🪜
 
 1. Clone this repository
 2. Install the dependencies:
@@ -24,14 +24,14 @@
     **localhost:3333/polls**
 9. Enjoy the API !!
 
-## Routes
+## Routes 🛣️
 
 * **POST /polls** - Create a new poll
 * **GET /polls/:pollId** - Get data from a poll
 * **POST /polls/:pollId/votes** - Vote on a poll
 * **WS /polls/:pollId/results** - Real-time poll results
 
-## Tools
+## Tools 🔨
 
 - TypeScript
 - Fastify (framework)
