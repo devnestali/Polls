@@ -11,15 +11,15 @@
 
 1. Clone this repository
 2. Install the dependencies:
-   **npm install**
+   `npm install`
 3. Run the database:
-   **docker-compose up -d**
+   `docker-compose up -d`
 4. Run the migrations:
-   **npx prisma migrate dev**
+   `npx prisma migrate dev`
 5. Run the application:
-   **npm run dev**
+   `npm run dev`
 6. Access the API with the Rest Client:
-    **localhost:3333/polls**
+    `localhost:3333/polls`
 7. Enjoy the API !!
 
 ## Routes 🛣️
