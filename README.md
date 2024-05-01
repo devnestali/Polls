@@ -24,10 +24,47 @@
 
 ## Routes 🛣️
 
-* **POST /polls** - Create a new poll
-* **GET /polls/:pollId** - Get data from a poll
-* **POST /polls/:pollId/votes** - Vote on a poll
-* **WS /polls/:pollId/results** - Real-time poll results
+Creates a new event.
+- **Method:** `POST`
+- **URL:** `http://localhost:3333/events`
+- **Request Body:**
+```json
+{
+  "title": "New Event",
+  "details": null,
+  "maximumAttendees": ""
+  "details": "Details of the event",
+  "maximumAttendees": 120
+}
+```
+
+### Register Attendee
+Registers a participant for a specific event.
+- **Method:** `POST`
+- **URL:** `http://localhost:3333/events/{eventId}/attendees`
+- **Request Body:**
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+```
+### Get Event Details
+Retrieves details of a specific event.
+- **Method:** `GET`
+- **URL:** `http://localhost:3333/events/{eventId}`
+### Get Attendee Badge
+Retrieves badge information for a specific attendee.
+- **Method:** `GET`
+- **URL:** `http://localhost:3333/attendees/{attendeeId}/badge`
+### Check-in Attendee
+Performs check-in for a specific attendee.
+- **Method:** `GET`
+- **URL:** `http://localhost:3333/attendees/{attendeeId}/check-in`
+### Filter Attendees by Query
+Retrieves attendees for a specific event filtered by a search query.
+- **Method:** `POST`
+- **URL:** `http://localhost:3333/events/{eventId}/attendees?query={searchQuery}`
 
 ## Tools 🔨
 
