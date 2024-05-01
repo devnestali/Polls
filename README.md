@@ -31,7 +31,7 @@
 * **POST /polls/:pollId/votes** - Vote on a poll
 * **WS /polls/:pollId/results** - Real-time poll results
 
-### Tools
+## Tools
 
 - TypeScript
 - Fastify (framework)
