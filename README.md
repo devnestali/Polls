@@ -1,6 +1,8 @@
 # POLLS 🎢
 🎢 This is a simple API for a polling app. It allows users to create polls, vote in polls and view the results returned from polls in real time and can also view previously cast votes. 
 
+This project was made in NLW Explorer by [Rpcketseat](https://www.rocketseat.com.br/)
+
 ## Prerequisites
 
 * Node.JS
